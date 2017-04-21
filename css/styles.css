@@ -1,6 +1,8 @@
 .brendan-img{
-  /*max-height: 500px;*/
+  width: 100%;
+  max-width: 800px;
   padding: 1%;
+  border-radius: 15px 50%;
 }
 
 .green{
@@ -12,5 +14,21 @@
 }
 
 body{
-  font-family: helvetica;
+  font-family: 'Roboto,' Helvetica, sans-serif;
+  background-color: #ffd8ea;
+}
+
+.well{
+  background-color: inherit;
+}
+
+.content{
+  max-width: 800px;
+  background-color: inherit;
+  border-radius:
+  /*border-style: none;*/
+}
+
+h1{
+  font-size: 80px;
 }
