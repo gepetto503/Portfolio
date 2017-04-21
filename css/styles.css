@@ -1,29 +1,35 @@
-.brendan-img{
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffced7;
+}
+
+h1{
+  font-size: 80px;
+  /*font-family: 'UnifrakturCook', cursive;*/
+}
+
+/*.green is a class i apply to elements when i just want to make sure I'm selecting the area that I think I am*/
+.green{
+  background-color: green;
+}
+
+.brendan-img {
   width: 100%;
   max-width: 800px;
   padding: 1%;
   border-radius: 15px 50%;
 }
 
-.green{
-  background-color: green;
+.bananas-img {
+  width: 30%;
+  float: left;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  border-radius: 15px 50%;
 }
 
 .content{
   margin-top: 20px;
-}
-
-body{
-
-  font-family: 'Asar', serif;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  background-color: #000000;
-  color: white;
-}
-
-.well{
-  background-color: inherit;
 }
 
 .content{
@@ -33,12 +39,12 @@ body{
   border: 10px solid white;*/
 }
 
-h1{
-  font-size: 80px;
-  font-family: 'UnifrakturCook', cursive;
-}
-
 .jumbotron{
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b8/3d/62/b83d6266c51c3f7f6be024188b18a4cc.jpg);
   background-size: cover;
+}
+
+span{
+  font-weight: bold;
+  font-variant: small-caps;
 }
