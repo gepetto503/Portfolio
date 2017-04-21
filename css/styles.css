@@ -1,24 +1,16 @@
-html {
-  /*background: url(https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg) no-repeat center center fixed;*/
-}
-
 body {
   font-family: 'Roboto', sans-serif;
-  /*background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg') no-repeat center center fixed;
-  background-size: cover;*/
-  /*color: white;*/
 }
 
 h1 {
   font-size: 80px;
-  /*font-family: 'UnifrakturCook', cursive;*/
 }
 
-h2{
+h2 {
   color: #992e0f;
 }
 
-h3{
+h3 {
   line-height: normal;
 }
 
@@ -27,20 +19,14 @@ span {
   font-variant: small-caps;
 }
 
-/*.green is a class i apply to elements when i just want to make sure I'm selecting the area that I think I am*/
-/*.green {
-  background-color: green;
-}*/
-
-header{
+header {
   background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('css-img/brendan3.jpg') no-repeat center center fixed;
-  /*background-image: url(css-img/brendan2.jpg);*/
   height: 100vh;
   background-size: cover;
   color: white;
 }
 
-.name{
+.name {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,8 +40,6 @@ header{
   margin-top: 20px;
   margin-bottom: 50px;
   padding: 30px;
-  /*background-color: inherit;*/
-  /*border: 4px solid black;*/
 }
 
 .brendan-img {
