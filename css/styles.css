@@ -25,9 +25,12 @@ span {
 }*/
 
 header{
-  background-image: url(https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('css-img/brendan3.jpg') no-repeat center center fixed;
+  /*background-image: url(css-img/brendan2.jpg);*/
   height: 100vh;
   background-size: cover;
+  color: white;
+
 }
 
 .name{
@@ -41,11 +44,10 @@ header{
 
 .content {
   max-width: 800px;
-  /*margin-top: 20px;*/
+  margin-top: 20px;
+  padding: 20px;
   /*background-color: inherit;*/
-  /*padding: 200, 0, 200, 0;*/
-  /*border-radius: 5px;
-  border: 10px solid white;*/
+  /*border: 4px solid black;*/
 }
 
 .brendan-img {
