@@ -14,8 +14,12 @@
 }
 
 body{
-  font-family: 'Roboto,' Helvetica, sans-serif;
-  background-color: #ffd8ea;
+
+  font-family: 'Asar', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: white;
 }
 
 .well{
@@ -25,10 +29,16 @@ body{
 .content{
   max-width: 800px;
   background-color: inherit;
-  border-radius:
-  /*border-style: none;*/
+  /*border-radius: 5px;
+  border: 10px solid white;*/
 }
 
 h1{
   font-size: 80px;
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.jumbotron{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b8/3d/62/b83d6266c51c3f7f6be024188b18a4cc.jpg);
+  background-size: cover;
 }
