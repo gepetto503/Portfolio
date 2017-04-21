@@ -1,22 +1,51 @@
-html{
+html {
   /*background: url(https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg) no-repeat center center fixed;*/
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
+  /*background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg') no-repeat center center fixed;
+  background-size: cover;*/
+  /*color: white;*/
 }
 
-h1{
+h1 {
   font-size: 80px;
   /*font-family: 'UnifrakturCook', cursive;*/
 }
 
+span {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
 /*.green is a class i apply to elements when i just want to make sure I'm selecting the area that I think I am*/
-.green{
+/*.green {
   background-color: green;
+}*/
+
+header{
+  background-image: url(https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  /*margin-top: 20px;*/
+  /*background-color: inherit;*/
+  /*padding: 200, 0, 200, 0;*/
+  /*border-radius: 5px;
+  border: 10px solid white;*/
 }
 
 .brendan-img {
@@ -32,27 +61,4 @@ h1{
   padding-right: 8px;
   padding-bottom: 3px;
   border-radius: 15px 50%;
-}
-
-.content{
-  margin-top: 20px;
-}
-
-.content{
-  max-width: 800px;
-  /*background-color: inherit;*/
-  padding: 200, 0, 200, 0;
-  /*border-radius: 5px;
-  border: 10px solid white;*/
-}
-
-.jumbotron{
-  /*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b8/3d/62/b83d6266c51c3f7f6be024188b18a4cc.jpg);
-  background-size: cover;*/
-  background-color: green;
-}
-
-span{
-  font-weight: bold;
-  font-variant: small-caps;
 }
