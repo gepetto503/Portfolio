@@ -1,6 +1,12 @@
+html{
+  /*background: url(https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg) no-repeat center center fixed;*/
+}
+
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #ffced7;
+  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://i.ytimg.com/vi/c7oV1T2j5mc/maxresdefault.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
 
 h1{
@@ -34,14 +40,16 @@ h1{
 
 .content{
   max-width: 800px;
-  background-color: inherit;
+  /*background-color: inherit;*/
+  padding: 200, 0, 200, 0;
   /*border-radius: 5px;
   border: 10px solid white;*/
 }
 
 .jumbotron{
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b8/3d/62/b83d6266c51c3f7f6be024188b18a4cc.jpg);
-  background-size: cover;
+  /*background-image: url(https://s-media-cache-ak0.pinimg.com/originals/b8/3d/62/b83d6266c51c3f7f6be024188b18a4cc.jpg);
+  background-size: cover;*/
+  background-color: green;
 }
 
 span{
